@@ -5,7 +5,25 @@
 
 
 ### DL algorithms
+- CNN 
+- RNN 
+- LSTM
+- Transfer learning 
 
+
+
+### Data 
+- audio, image 
+- text processing 
+
+
+### Model architecture 
+- image classificaion : ResNet, MobileNet
+- text classification : BERT, XLNet
+- image segmentation : Deep Lab, UNet
+- image translation : Pix2Pix
+- object detection : YOLO, Mask R CNN 
+- Speech generation : WaveNet 
 
 
 ### DL on the cloud 
@@ -59,9 +77,18 @@
     - DL inference pipeline for CNN
 
 
+- Microsoft custom vision.AI 
+- Google AutoML 
+- Clarifai 
+- IBM visual recognition
+- Apple create ML 
+- NVIDIA Digits
+
 
 ### Distributed DL 
 - Scalable DL 
+
+
 
 
 
@@ -70,3 +97,40 @@
 - 
 
 
+
+### Framework 
+- tensorflow, lite (mobile, embedded devices)
+- pytorch 
+- MXNet
+- CoreML
+- 
+
+
+### Tech stack 
+- Python 
+- TF / TF GPU  
+- Pillow 
+- Optional : NVIDIA GPU 
+    - install driver, CUDA, cuDNN, tensorflow-gpu
+    - lambda stack : https://lambdalabs.com/lambda-stack-deep-learning-software
+
+
+
+### hardware 
+- CPU 
+- GPU : large network 
+- FPGA
+- ASIC 
+- TPU 
+- Edge TPU : wearable
+- NPU : smartphone, digital signal processing 
+- Embedded AI projects (e.g., flood surveying drone, autonomous wheelchair) → Accelerators like Google Coral, Intel Movidius with Raspberry Pi, or GPUs like NVIDIA Jetson Nano, all the way down to $15 microcontrollers (MCUs) for wake word detection in smart speakers
+    
+
+### Resource 
+
+- Open Neural Network Exchange (ONNX) 
+
+
+
+### TODO
