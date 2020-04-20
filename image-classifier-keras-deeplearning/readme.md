@@ -24,7 +24,6 @@
     - append a new classifier layer 
     - freee weights of original layers 
     - select optimizer algorithm 
-
 - Reuse : multiclassificaion 
 - backpropagation 
 - rinse & repeat until the prediction become sufficiently accurate 
