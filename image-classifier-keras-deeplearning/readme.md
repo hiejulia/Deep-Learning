@@ -1,33 +1,49 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
----
-noteId: "b3db2b9074d611ea89672f82623d794b"
-tags: []
-
----
-
-# Image classification with Keras
-https://raw.githubusercontent.com/PracticalDL/Practical-Deep-Learning-Book/master/sample-images/dog.jpg
-
-
-=======
->>>>>>> 46aaaceabb1f64f57d522c664530d8b88fdcd110
-=======
->>>>>>> 46aaaceabb1f64f57d522c664530d8b88fdcd110
 # Image classification wiht Keras
 + Neural network 
 - Load image
 - 224x224 pixel
 - range [0,1] or [–1,1]
-- Pretrained model 
-<<<<<<< HEAD
-<<<<<<< HEAD
+- reuse pre trained model to build classifier that reach the state of the art accuracy 
+- improve classification accuracy is to have a high threshold for accepting a classifier result 
+- Reuse CNN pre trained in ImageNet dataset, remove the last few layers and replace with own classifier suited to the task 
+- transfer learning : freeze the weights of the original model 
 
 # Building a Custom Classifier in Keras with Transfer Learning
-=======
-<a href="https://imgur.com/nPbdXhr"><img src="https://i.imgur.com/nPbdXhr.jpg" title="source: imgur.com" /></a>
->>>>>>> 46aaaceabb1f64f57d522c664530d8b88fdcd110
+- Fine tuning a convolutional neural network
+- Build data pipeline 
+    - group multiple images together into batches
+    - augment the data 
+        - rotation, zooming, increase variation in trainign data
+        - reduce overfiting
+            - get more data 
+            - heavily augment existing data 
+            - fine tune fewer layers 
+            - combine 
 
+- model 
+    - append a new classifier layer 
+    - freee weights of original layers 
+    - select optimizer algorithm 
+
+- Reuse : multiclassificaion 
+- backpropagation 
+- rinse & repeat until the prediction become sufficiently accurate 
+- batch size : variety of images from different class 
+    - fit GPU memory 
+
+
+- Start train model 
+    - fit model to data 
+    - epoch - reach 90 % -> last : 97% -> transfer learning 
+
+
+- Test model 
+    
+
+<a href="https://imgur.com/nPbdXhr"><img src="https://i.imgur.com/nPbdXhr.jpg" title="source: imgur.com" /></a>
+
+- misprediction 
+    - illumination,unclear, background, lack of texture, smaller occupied area,etc 
 
 # Data 
 https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
@@ -44,8 +60,16 @@ https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
 <a href="https://imgur.com/s909xZb"><img src="https://i.imgur.com/s909xZb.png" title="source: imgur.com" /></a>
 
 <a href="https://imgur.com/o8FVRUt"><img src="https://i.imgur.com/o8FVRUt.png" title="source: imgur.com" /></a>
-=======
+
 <a href="https://imgur.com/nPbdXhr"><img src="https://i.imgur.com/nPbdXhr.jpg" title="source: imgur.com" /></a>
+
+
+
+# analyze result 
+- accuracy 
+- config pipeline for validate dataset
+- find 
+
 
 # how to run
 + Install :  
@@ -57,4 +81,4 @@ https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
 `pip install pillow`
 `pip install pathlib`
 
->>>>>>> 46aaaceabb1f64f57d522c664530d8b88fdcd110
+
