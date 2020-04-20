@@ -91,6 +91,8 @@
 
 
 
+<a href="https://imgur.com/QjLksYU"><img src="https://i.imgur.com/QjLksYU.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/C0nHzNx"><img src="https://i.imgur.com/C0nHzNx.png" title="source: imgur.com" /></a>
 
 ### DL production pipeline 
 - Deployment
