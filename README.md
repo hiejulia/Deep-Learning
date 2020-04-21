@@ -1,15 +1,12 @@
 # DEEP-LEARNING
 
 
-
-
-
 ### DL algorithms
 - CNN 
 - RNN 
 - LSTM
 - Transfer learning 
-
+- Siamese network
 
 
 ### Data 
@@ -133,6 +130,15 @@
 - Improve accuracy from 90% to 97% by using transfer learning 
 
 
+### image search 
+- feature extract 
+- search on image dataset (caltech)
+- scale large dataset 
+- optimized system 
+- mainstream product 
+- Deep NN 
+
+
 
 
 
@@ -140,6 +146,19 @@
 ### Resource 
 - https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb#scrollTo=WzIRIt9d2huC
 - Open Neural Network Exchange (ONNX) 
+
+
+
+- Case study
+    - Flickr 
+        - similarity search feature based on same semantic meaening 
+        - ANN algo : Locally optimized product quantization 
+    - Pinterest 
+        - associated metadata 
+    - Spotify 
+        - NN music and creating automatic playlist and radia station 
+    - Image captioning feature in SeeingAI 
+
 
 
 
