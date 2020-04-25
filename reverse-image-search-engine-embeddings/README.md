@@ -62,7 +62,8 @@ Xception	2048	79.0%
 - lable some amount of data 
 - 87% accurancy improved 
 
-
+# similarity search  
+- 
 
 
 # fine tune without fully connected layers 
