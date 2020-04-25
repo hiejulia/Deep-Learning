@@ -113,7 +113,7 @@
     - install driver, CUDA, cuDNN, tensorflow-gpu
     - lambda stack : https://lambdalabs.com/lambda-stack-deep-learning-software
 
-
+- sklearn 
 
 ### hardware 
 - CPU 
