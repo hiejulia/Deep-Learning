@@ -80,6 +80,8 @@
 - IBM visual recognition
 - Apple create ML 
 - NVIDIA Digits
+- Amazon Rekognition
+
 
 
 ### Distributed DL 
@@ -146,6 +148,9 @@
 ### Resource 
 - https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb#scrollTo=WzIRIt9d2huC
 - Open Neural Network Exchange (ONNX) 
+- https://runwayml.com/
+- https://researchcode.com/
+- https://arxiv.org/
 
 
 
@@ -163,3 +168,5 @@
 
 
 ### TODO
+- deeplearning.ai 
+- https://course.fast.ai/
