@@ -116,10 +116,12 @@
     - lambda stack : https://lambdalabs.com/lambda-stack-deep-learning-software
 
 - sklearn 
+- https://keras.io/
 
 ### hardware 
 - CPU 
 - GPU : large network 
+    - titanx 
 - FPGA
 - ASIC 
 - TPU 
@@ -127,6 +129,11 @@
 - NPU : smartphone, digital signal processing 
 - Embedded AI projects (e.g., flood surveying drone, autonomous wheelchair) → Accelerators like Google Coral, Intel Movidius with Raspberry Pi, or GPUs like NVIDIA Jetson Nano, all the way down to $15 microcontrollers (MCUs) for wake word detection in smart speakers
     
+
+- Cloud : Google cloud instane (n1 8 instance with NVIDIA Tesla K8 addon)
+
+- AWS GPU instance - p2.xlarge instance 
+
 
 ### Image classification with Keras 
 - Improve accuracy from 90% to 97% by using transfer learning 
