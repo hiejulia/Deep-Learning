@@ -1,5 +1,5 @@
 # DEEP-LEARNING
-
+- Generate song lyrics using RNN 
 
 ### DL algorithms
 - CNN 
@@ -7,6 +7,15 @@
 - LSTM
 - Transfer learning 
 - Siamese network
+- Activation function 
+    - tanh 
+    - signmoid 
+    - ReLU
+    - Leaky ReLu 
+    - Swish 
+    - softmax 
+    - exponential linear unit function 
+    - 
 
 
 ### Data 
