@@ -1,5 +1,15 @@
 # DEEP-LEARNING
 - Generate song lyrics using RNN 
+- Browser AI : running AI within browser 
+- Image classifier 
+- MNIST digit recognition 
+- XOR gate operation 
+- Music recommendation system with DL 
+- NLP with BERT 
+- Plate detection 
+- Optical character recognition
+- Self driving car 
+
 
 ### DL algorithms
 - CNN 
