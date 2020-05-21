@@ -9,6 +9,7 @@
 - Plate detection 
 - Optical character recognition
 - Self driving car 
+- Action recognition 
 
 
 ### DL algorithms
