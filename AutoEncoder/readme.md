@@ -20,4 +20,13 @@
 
 
 ## Denoising AE - DAE 
+- add noise  Gaussian distribution
+    - mean = 0.5
+    - std = 0.5 
+    - [0.1, 1.0]  pixel 
+
+- MSE 
+- Adam optim
+
+## Automatic colorization AE
 - 
