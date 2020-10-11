@@ -1,9 +1,0 @@
-# 
-
-
-
-
-
-# Libs 
-- ConvNetJS 
-- Deep Traffic 

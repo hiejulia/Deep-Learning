@@ -39,6 +39,10 @@
 ## Colorization AE
 - Dataset : cifar10
 
+- Compare ground truth color images and predicted colorized images 
+
+
+
 
 Ref 
 - Deep Learning book 
