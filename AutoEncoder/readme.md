@@ -29,4 +29,6 @@
 - Adam optim
 
 ## Automatic colorization AE
-- 
+- Double number of filters each CNN block 
+- add 1 more block of conv and transpose conv
+- latent vector = 256 dim 
