@@ -17,3 +17,7 @@
 
 - MSE loss func
 - adam optim
+
+
+## Denoising AE - DAE 
+- 
