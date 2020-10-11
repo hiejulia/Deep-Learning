@@ -32,3 +32,13 @@
 - Double number of filters each CNN block 
 - add 1 more block of conv and transpose conv
 - latent vector = 256 dim 
+- tSNE 
+- PCA 
+
+
+## Colorization AE
+- Dataset : cifar10
+
+
+Ref 
+- Deep Learning book 
