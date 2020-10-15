@@ -5,7 +5,27 @@
 - Progressive GAN
 - StyleGAN
 
-
+## TimeGan 
+- Embedding(AE) : recovery network 
+- Adversarial network : seqence G & D
+- Reconstruction loss, unsupervised loss, supervised loss 
+- train AE on real time series to optimize reconstruction 
+- optimize supervised loss using real time series to capture temporal dynamics of historical data
+- jointly train 4 components while minimizing all 3 loss function 
+- implementation of TimeGan (tf) (GAN/TimeGAN)
+    - TimeGAN architecture 
+    - select & prepare real & random time series input 
+        - financial data using 15 years of daily google stock prices (6 features)
+        - synthetic data 
+    - create model 
+        - 2 AE components 
+            - embedder 
+        - 2 adversarial network 
+        - RNN : 3 hidden layers - 24 GRU 
+        - G 
+        - D 
+        - loss func: MSE, BCE 
+    - define loss func 
 
 
 ## DCGAN in MNIst dataset 
