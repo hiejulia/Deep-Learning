@@ -1,4 +1,4 @@
-# Project 1:
+# Project 1: Segmentation
 
 ## Semantic segmentation network FCN
 - 4dim one hot vector prediction 
