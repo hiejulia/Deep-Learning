@@ -29,6 +29,8 @@
 ## Other 
 - Mask-R-CNN 
 
+## Set up 
+- Set up folder /DeepLearning-ComputerVision
 
 ## Paper
 - Pyramid Scene Parsing Network (PSPNet) by Zhao et al. (2017)
@@ -37,7 +39,8 @@
 - Zhao, Hengshuang, et al.: Pyramid Scene Parsing Network. Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
 - Dutta, et al.: VGG Image Annotator http://www.robots.ox.ac.uk/~vgg/software/via/
 - He Kaiming, et al.: Mask R-CNN. Proceedings of the IEEE international conference on computer vision. 2017.
-- Advanced Deep Learning with Tensorflow and Keras book 
-
+- Advanced Deep Learning with Tensorflow and Keras book (Atienza, Rowel)
+- [FCN](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)
+- [PSPNet](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhao_Pyramid_Scene_Parsing_CVPR_2017_paper.pdf)
 
 # Project 2:

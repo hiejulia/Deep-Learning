@@ -1,8 +1,4 @@
-### Set up dev env 
-- 
-
-
-
+### Set up env
 
 
 
@@ -25,13 +21,6 @@
 - Alert : 
 - PlotNeuralNet - Create CNN diagrams 
 
-
-#### Algorithms 
-- NAS 
-
-#### Models 
-
-#### State of art 
 
 #### Data 
 - Fatkun Batch Download Image
