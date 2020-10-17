@@ -5,7 +5,9 @@
 - Progressive GAN
 - StyleGAN
 
-## TimeGan 
+## TimeGan
+- Paper : https://papers.nips.cc/paper/8789-time-series-generative-adversarial-networks.pdf
+
 - Embedding(AE) : recovery network 
 - Adversarial network : seqence G & D
 - Reconstruction loss, unsupervised loss, supervised loss 
@@ -26,6 +28,20 @@
         - D 
         - loss func: MSE, BCE 
     - define loss func 
+    - Training 
+        - AE + real data
+        - supervised learning with real data 
+        - joint real + random data
+- Evaluate 
+    - PCA | tSNE 
+    - Test error of time series classifier (2 layer LSTM )
+    - Predictive score 
+    - Fidelity - time series classification performance 
+        - RNN - sigmoid 
+        - optimize: BCE + Adam 
+        - AUC - accuracy metric 
+    - train on synthetic, test on real 
+
 
 
 ## DCGAN in MNIst dataset 
