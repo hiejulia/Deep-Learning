@@ -18,6 +18,21 @@
 - segmentation_train.json
 - segmentation_test.json
 
+![Sample input](images/sample_input.png)
+
+Sample input for semantic segmentation. 
+
+
+![Ground truth](images/sample_ground_truth.png)
+
+Sample ground truth for semantic segmentation. 
+
+![Pred](images/sample_prediction.png)
+
+Sample prediction for semantic segmentation. 
+- Black color for background class instead of purple as earlier used.
+
+
 ## Semantic segmentation validation 
 - `python3 fcn.py --train`
 - IoU : ground truth seg task vs predicted seg mask 
