@@ -17,11 +17,19 @@ http://cvcl.mit.edu/database.htm
     - bootstrapping
     - hyperparameter tuning: kernel 
 - Detect pedestrian in a larger image
-    - 
+- Bayesian 
+    - `cv2.ml.NormalBayesClassifier_create()`
 
-    
+## Project 2: Classifying emails using the naive Bayes classifier
+- feature : n-grams, tf-idf
 
 
+
+- Dataset 
+The Ling-Spam corpus: http://csmining.org/index.php/ling-spam-datasets.html
+The Hewlett-Packard spam database: https://archive.ics.uci.edu/ml/machine-learning-databases/spambase
+The Enrom-Spam dataset: http://www.aueb.gr/users/ion/data/enron-spam
+The Apache SpamAssassin public corpus: http://csmining.org/index.php/spam-assassin-datasets.html
 
 
 
@@ -48,6 +56,9 @@ http://cvcl.mit.edu/database.htm
     - kernel trick
     - cv2.ml.SVM_LINEAR, cv2.ml.SVM_POLY, cv2.ml.SVM_RBF, cv2.ml.SVM_SIGMOID, cv2.ml.SVM_INTER
     - Tuning kernel 
+
+- K Means
+    - `cv2.KMEANS_RANDOM_CENTERS`
 
 
 - Dataset : https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
