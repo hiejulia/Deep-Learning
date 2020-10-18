@@ -192,8 +192,3 @@
     - Image captioning feature in SeeingAI 
 
 
-
-
-### TODO
-- deeplearning.ai 
-- https://course.fast.ai/
